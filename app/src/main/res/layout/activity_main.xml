@@ -19,7 +19,9 @@
         android:text="Usuário" />
 
     <EditText
+        android:maxLength="25"
         android:layout_width="match_parent"
+        android:inputType="textEmailAddress"
         android:layout_height="wrap_content" />
 
     <TextView
@@ -28,6 +30,8 @@
         android:text="senha" />
 
     <EditText
+        android:inputType="textPassword"
+        android:maxLength="11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
